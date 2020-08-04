@@ -1,8 +1,5 @@
 
 // 8 Bytes pingpong betweend two cores/threads
-// todo
-//  - standard deviation
-//  - histogram?
 // clang++ -std=c++20 -W -Wall -Wshadow -Wextra -Wpedantic -O3 -mtune=native -ggdb3 -o mpp mp.cpp -lpthread
 
 #include <iostream>
